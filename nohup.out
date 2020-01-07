@@ -1,0 +1,139 @@
+192.168.137.1 - - [07/Jan/2020 10:03:51] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py:21: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(14, GPIO.OUT)
+192.168.137.1 - - [07/Jan/2020 10:03:53] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py:21: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(14, GPIO.OUT)
+192.168.137.1 - - [07/Jan/2020 10:05:08] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py:21: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(14, GPIO.OUT)
+192.168.137.1 - - [07/Jan/2020 10:07:52] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:07:52] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:07:56] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:07:56] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:08:11] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:08:11] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:08:36] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:08:36] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:08:36] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:08:36] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:08:36] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:08:36] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:08:37] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:08:37] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:09:14] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 293, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+192.168.137.1 - - [07/Jan/2020 10:09:15] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:09:15] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:09:16] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:09:17] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:10:51] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:10:51] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:10:53] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:10:53] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:10:54] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:10:54] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:10:54] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:10:54] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:10:54] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:10:54] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:10:54] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:10:54] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:10:55] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:10:55] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:10:55] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:10:55] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:10:55] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:10:55] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:10:55] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:10:55] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:10:55] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:10:55] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:11:08] "POST /cgi-bin/webled.py HTTP/1.1" 200 -
+/home/pi/task5/syspro2019_chapter6/cgi-bin/webled.py:19: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(14, GPIO.OUT)
+192.168.137.1 - - [07/Jan/2020 10:11:10] "POST /cgi-bin/webled.py HTTP/1.1" 200 -
+/home/pi/task5/syspro2019_chapter6/cgi-bin/webled.py:19: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(14, GPIO.OUT)
+close failed in file object destructor:
+sys.excepthook is missing
+lost sys.stderr
+192.168.137.1 - - [07/Jan/2020 10:11:10] "POST /cgi-bin/webled.py HTTP/1.1" 200 -
+/home/pi/task5/syspro2019_chapter6/cgi-bin/webled.py:19: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(14, GPIO.OUT)
+192.168.137.1 - - [07/Jan/2020 10:11:10] "POST /cgi-bin/webled.py HTTP/1.1" 200 -
+/home/pi/task5/syspro2019_chapter6/cgi-bin/webled.py:19: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(14, GPIO.OUT)
+192.168.137.1 - - [07/Jan/2020 10:11:11] "POST /cgi-bin/webled.py HTTP/1.1" 200 -
+/home/pi/task5/syspro2019_chapter6/cgi-bin/webled.py:19: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(14, GPIO.OUT)
+192.168.137.1 - - [07/Jan/2020 10:11:11] "POST /cgi-bin/webled.py HTTP/1.1" 200 -
+/home/pi/task5/syspro2019_chapter6/cgi-bin/webled.py:19: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  GPIO.setup(14, GPIO.OUT)
+192.168.137.1 - - [07/Jan/2020 10:11:29] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:11:29] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:11:29] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:11:29] CGI script exit status 0x100
+192.168.137.1 - - [07/Jan/2020 10:11:30] "GET /cgi-bin/webservo.py HTTP/1.1" 200 -
+  File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
+SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+192.168.137.1 - - [07/Jan/2020 10:11:30] CGI script exit status 0x100
