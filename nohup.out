@@ -137,3 +137,19 @@ SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapte
   File "/home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py", line 16
 SyntaxError: Non-ASCII character '\xe9' in file /home/pi/task5/syspro2019_chapter6/cgi-bin/webservo.py on line 16, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
 192.168.137.1 - - [07/Jan/2020 10:11:30] CGI script exit status 0x100
+python: can't open file '–m': [Errno 2] No such file or directory
+
+Usage:
+ kill [options] <pid> [...]
+
+Options:
+ <pid> [...]            send signal to every <pid> listed
+ -<signal>, -s, --signal <signal>
+                        specify the <signal> to be sent
+ -l, --list=[<signal>]  list all signal names, or convert one to a name
+ -L, --table            list all signal names in a nice table
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see kill(1).
